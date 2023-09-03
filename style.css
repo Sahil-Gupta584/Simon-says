@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.game-container{
+    height: fit-content;
+    width: fit-content;
+    display: grid;
+    grid-template: 'yellow red'
+                    'purple green';
+                    
+}
+.game-container div{
+    height: 200px ;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 1.5rem;
+}
+.yellow{
+    background-color: #f99b45;
+    grid-area: yellow;
+}
+.red{
+    background-color: #d95980;
+    grid-area: red;
+}
+.purple{
+    background-color: #819ff9;
+    grid-area: purple;
+}
+.green{
+    background-color: #63aac0;
+    grid-area: green;
+}
+.gameFlash {
+    background-color: white;
+}
+.userFlash{
+    background-color: rgb(114, 246, 114);
+}
